@@ -1,13 +1,13 @@
 # RSSフィード投稿用Powershellスクリプト
 ## Description
-- QiitaのtagをキーワードとしてRSSフィードを取得し、Markdown形式に変換して指定件数分をMSTeamsに出力します。
+- QiitaのtagをキーワードとしてRSSフィードを取得し、Markdown形式に変換して指定件数分をMSTeamsに出力する。
 - 動確環境
     - Windows 10 Enterprise
     - Powershell 5.1
 ## Install
-- 以下前準備をしないと動作しません。
+- 以下前準備をしないと動作しない。
 1. MS TeamsIncoming Webhookを構成してURIをメモっておく。
-1. /ini/congig.iniを作成する。
+1. /ini/config.iniを作成する。
     - keyword=キーワード（Qiitaのtagに相当する部分）
     - startmsg=スタートメッセージ
     - devuri=デバッグ用のWebhook URI
